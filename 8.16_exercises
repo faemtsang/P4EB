@@ -1,5 +1,5 @@
 fname = input('Enter file: ')
-try:=
+try:
   fhand = open(romeo.txt)
   lst = []
   for line in fhand:
