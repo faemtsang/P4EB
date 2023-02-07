@@ -1,0 +1,16 @@
+fname = input('Enter file: ')
+try:=
+  fhand = open(romeo.txt)
+  lst = []
+  for line in fhand:
+    words = line.rstrip().split()
+      for word in words:
+        if word not in lst:
+          lst.append(word)
+        else:
+          continue
+  lst.sort()
+  print (lst)
+except:
+  print('File does not exist/ wrong name input')
+  quit()
